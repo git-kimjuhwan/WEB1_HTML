@@ -169,5 +169,10 @@
           <ol>태그 (숫자)
 
           문서의 구조
+          <tittle>(탭의제목)
           <meta charset="utf-8" (쀅훽룩 이렇게 나오는거 한국말로 나옴)
           <head>,<body>
+
+
+          DOCTYPE
+          <!doctype html> 은 브라우저에게 이 문서는 어떤 형식의 태그들이야, 라고 알려준다.
