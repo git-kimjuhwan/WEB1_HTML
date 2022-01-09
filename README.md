@@ -261,3 +261,15 @@
             </form>
             </body>
             </html>
+
+
+
+
+            텍스트 입력
+
+            text area는 여러줄 입력할때 사용
+            text area내에서 cols 혹은 rows등의 속성을 이용하여 크기 행 정할수있음
+            <p>text area: <textarea cols="50" rows="3"> default value</textarea> </p>
+                                                             (여기)
+            text area의 경우 열리고 닫히는 태그안에 써준다.  
+            input은 닫아주는 태그가 없고 text area는 닫힌태그가 존재하며 열린태그와 닫힌태그안에 기본값을 넣어준다.
