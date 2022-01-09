@@ -246,3 +246,18 @@
              <td rowspan="2"> 청주라고 하면 행이 병합됨 그래서 병합되는 부분에
              <td>는 지워줘야 한다 여기서 숫자 2는 행 2개를 병합한다는 뜻
              <td colspan="2"> 는 열을 합칠때하는 것이다.
+
+
+
+-01/09       
+
+            입력양식-form
+            <html>
+            <body>
+            <form action="httt://localhost/login.php"> 이 주소로 로그인 정보 넘어감
+            <p>아이디:<input type="text" name="id"></p> 아이디를 문자로 칠수있는 박스생김
+            <p>비밀번호<input type="password" name="password"></p> 비밀번호를 치면****나옴
+            주소:<input type="text" name="address"> 제출 버튼 만들어 줌
+            </form>
+            </body>
+            </html>
