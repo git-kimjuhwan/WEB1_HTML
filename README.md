@@ -273,3 +273,29 @@
                                                              (여기)
             text area의 경우 열리고 닫히는 태그안에 써준다.  
             input은 닫아주는 태그가 없고 text area는 닫힌태그가 존재하며 열린태그와 닫힌태그안에 기본값을 넣어준다.
+
+
+
+
+
+
+-01/10      
+
+
+
+            선택
+
+            붉은색~검은색을 option태그 걸어서 각각 선택가능하도록 그리고 콤보박스를 만들기 위해 select로 묶어주기
+            그리고 데이터를 전송하기 위해 submit버튼을 만들어주고 데이터를 전송할때는 이름이 반드시 필요하기 때문에 select태그에 이름을 만들어줌.
+            우리눈에는 검은색 파란색이 보이지만 컴퓨터가 정보를 인식하도록 option에 value속성을 줌
+
+            <input type="radio" 버튼이 한개 생김 이름을 동일시하게 주면 한개만 선택가능
+            붉은색: <input type="radio" name="color">
+            검은색: <input type="radio" name="color">
+            파란색: <input type="radio" name="color">
+            - 컴퓨터에 정보를 주기위해 value 속성을 사용
+            붉은색: <input type="radio" name="color" value="red">
+            검은색: <input type="radio" name="color" value="black">
+            파란색: <input type="radio" name="color" value="blue">
+            -다중버튼을 사용하기위해서는 checkbox를 사용
+            -checked 속성을 넣으면 기본적으로 선택되어 있게 할 수 있음.
