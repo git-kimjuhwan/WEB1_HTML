@@ -310,3 +310,11 @@
             -<input type="button" value="버튼"> value값을 주지 않으면 빈칸의 버튼이 생기가 value값으로 이름을 줄 수 있음 but이경우에는 버튼을 눌러도 아무것도 발생되지 않음
             <input type="button" value="버튼" onclick="alert('hello world')"> 이런식으로 자바스크립트를 이용하여 사용해야함
             -<input type="reset"> form태그 안에 있는 모든 정보가 리셋됨.
+
+
+
+
+            데이터 전송 -hidden
+
+            hidden의 경우 url가 눈에 보이지는 않지만 데이터가 전송됨.
+            url가 필요없거나 혹은 사용자 몰래 어떤 값을 서버로 전송할 필요가 있을 때 쓰임.
