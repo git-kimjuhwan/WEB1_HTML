@@ -299,3 +299,14 @@
             파란색: <input type="radio" name="color" value="blue">
             -다중버튼을 사용하기위해서는 checkbox를 사용
             -checked 속성을 넣으면 기본적으로 선택되어 있게 할 수 있음.
+
+
+
+
+
+            버튼
+
+            - <input type="submit" value="전송"> value값을 주지 않으면 제출버튼이 생기지만 value="00"값을 주면 00버튼이 생김
+            -<input type="button" value="버튼"> value값을 주지 않으면 빈칸의 버튼이 생기가 value값으로 이름을 줄 수 있음 but이경우에는 버튼을 눌러도 아무것도 발생되지 않음
+            <input type="button" value="버튼" onclick="alert('hello world')"> 이런식으로 자바스크립트를 이용하여 사용해야함
+            -<input type="reset"> form태그 안에 있는 모든 정보가 리셋됨.
