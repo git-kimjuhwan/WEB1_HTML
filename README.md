@@ -344,3 +344,15 @@
             <label>
             <input type="checkbox" name="color" value="red"> 붉은색
             </label>
+
+
+
+
+
+            method
+
+            method는 방법 즉 데이터를 어떤 방법으로 전송할것인지 정하는 속성
+            method를 지정하지 않으면 기본적으로 get방식으로 데이터가 url에 다 나타남
+            -host방식은 url이 아닌 데이터를 숨겨서 전달
+            <form action="http://localhost/method.php" method="post">
+            - form을 이용하여 데이터를 전송할떄 거의 100% post방식을 이용하면 됨.
