@@ -318,3 +318,29 @@
 
             hidden의 경우 url가 눈에 보이지는 않지만 데이터가 전송됨.
             url가 필요없거나 혹은 사용자 몰래 어떤 값을 서버로 전송할 필요가 있을 때 쓰임.
+
+
+
+
+
+
+
+-01/11      
+
+
+
+            컨트롤의 제목-label
+
+            -label태그는 특별한 기능이 있기보다는 무언가의 이름표라는 기능을 가짐.
+            -각각의 label들이 누구의 이름표인지 연결시킬 필요가 있음(두가지 방법있음)
+            1. <label for="id_text">text:</label>
+            <input id="id_text" type="text" name="id" value="default value">
+            2. <label>text:
+            <input type="text" name="id" value="default value">
+            </label>
+            label이 잘 지정되었는지 확인하기 위해서 label로 지정된 문자를 눌러보면 커서가 박스로 이동되는걸 볼 수 있음.
+
+            -checkbox의 경우 아래와 같이 코딩하면 박스를 누르던 붉은색을 누르던 둘다 check가 됨.
+            <label>
+            <input type="checkbox" name="color" value="red"> 붉은색
+            </label>
