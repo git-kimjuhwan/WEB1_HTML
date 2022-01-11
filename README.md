@@ -367,5 +367,27 @@
 
 
             -<form action="http://localhost/upload.php" method="post" enctype="multipart/form-data">
-            파일을 업로드하는 기능이 한개라도 있다면 반드시 method는 post로 enctype는 "multipart/form-data" 로지정해줘야 함.
+            파일을 업로드하는 기능이 한개라도 있다면 반드시 method는 post로 enctype는 "multipart/form-data"로 지정해줘야 함.
             -파일을 선택하는 url는 input태그를 사용 <input type="file" name="profile"> 반드시 이름을 지정해줘야 함.
+
+
+
+
+
+            정보로서의 HTML
+
+            HTML은 정보다
+
+
+
+
+
+           글꼴-font(퇴출됨)
+
+           <font> 태그는 문서 내의 TEXT를 시각적으로 꾸며주는 역할을 담당하며
+            size / color 등의 여러 속성들을 적용할 수 있다.
+            (size 속성값은 기본이 3이며 1~7까지의 값을 표현해낼 수 있다.)
+
+            단, <font> 태그는 디자인의 역할만 할 뿐 어떠한 정보로서의 의미도 갖지 않으며,
+            중복 사용으로 인한 파일 용량 증가, 가독성 저하, 관리 측면에서의 불편함 등의 이유로
+            현재는 퇴출된 태그이며 그 역할을 CSS가 담당하게 되었다.
