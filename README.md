@@ -356,3 +356,16 @@
             -host방식은 url이 아닌 데이터를 숨겨서 전달
             <form action="http://localhost/method.php" method="post">
             - form을 이용하여 데이터를 전송할떄 거의 100% post방식을 이용하면 됨.
+            요약
+            get : 사용자가 입력한 정보가 url에 그대로 노출 된다
+            post : 사용자가 입력한 정보가 url에 나타나지 않는다.
+
+
+
+
+            파일 업로드
+
+
+            -<form action="http://localhost/upload.php" method="post" enctype="multipart/form-data">
+            파일을 업로드하는 기능이 한개라도 있다면 반드시 method는 post로 enctype는 "multipart/form-data" 로지정해줘야 함.
+            -파일을 선택하는 url는 input태그를 사용 <input type="file" name="profile"> 반드시 이름을 지정해줘야 함.
