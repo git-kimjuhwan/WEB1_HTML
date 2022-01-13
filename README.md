@@ -464,6 +464,22 @@
 
 
           모바일 지원
+
           viewport 속성 : <meta name="viewport" content="width=device-width, initial-scale=1.0">
           웹브라우저의 화면을 각 디바이스에 최적화 된 크기로 표현해준다.
           코드 작성시 위의 태그를 기계적으로 입력해주면 된다.
+
+
+
+
+
+
+          외부 문서 삽입-iframe
+
+          1. <iframe>태그 : 외부의 컨텐츠를 문서로 불러와 보여주는 기능
+        　<iframe src="URL" frameborder="수치" width="수치" height="수치"></iframe>
+
+          2. sandbox 속성 : iframe으로 불러온 페이지에 포함된 javascript나 <input>태그 등의 기술을 차단하는 속성값
+        　<iframe src="URL" ~~~ sandbox></iframe>
+          ※ 출처가 의심되는 사이트를 iframe으로 가져오면 방문자들에게 피해를 줄 수 있으므로 보안의
+        　 측면에서는 상당히 취약한 기술이다. 이에 대한 대책으로 sandbox 속성값을 사용한다.
