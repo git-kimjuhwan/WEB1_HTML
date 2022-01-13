@@ -453,3 +453,17 @@
 
             4. 개발자도구 메뉴중 "Network" 선택
             　- 웹브라우저와 웹서버가 주고 받는 데이터들을 체크 가능
+
+
+
+
+
+-01/13      
+
+
+
+
+          모바일 지원
+          viewport 속성 : <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          웹브라우저의 화면을 각 디바이스에 최적화 된 크기로 표현해준다.
+          코드 작성시 위의 태그를 기계적으로 입력해주면 된다.
